@@ -2,7 +2,7 @@ export default function Sound() {
   let fire = new Audio('./Audio/fire.wav')
   let forest = new Audio('./Audio/forest.wav')
   let market = new Audio('./Audio/market.wav')
-  let rain = new Audio('./Audio/Rain.wav')
+  let rain = new Audio('./Audio/rain.wav')
   let end = new Audio("https://github.com/maykbrito/automatic-video-creator/blob/master/audios/kichen-timer.mp3?raw=true")
 
 
