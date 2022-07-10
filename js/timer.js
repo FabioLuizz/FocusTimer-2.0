@@ -3,6 +3,7 @@ import Sound from "./sound.js"
 export default function Timer({ minutesDisplay, secondsDisplay, minutes}) {
 
   let timeTimerout
+  let newMinutes
 
   function updateDisplay(minutes, seconds) {
     seconds = seconds === undefined ? 0 : seconds
@@ -25,7 +26,7 @@ export default function Timer({ minutesDisplay, secondsDisplay, minutes}) {
       }
 
       if (seconds <= 0) {
-        seconds = 60
+        seconds = 60  
 
         --minutes
       }
@@ -41,21 +42,35 @@ export default function Timer({ minutesDisplay, secondsDisplay, minutes}) {
   }
 
   function increment() {
+    let minutes = Number(minutesDisplay.textContent)
+    let seconds = Number(secondsDisplay.textContent)
+
     minutes = minutes < 60 ? Number(minutes) + 5 : (minutes = 5)
 
-    updateDisplay(minutes, 0)
+    updateDisplay(minutes, seconds)
+    updateMinutesDisplay(minutes)
   }
 
   function decrement() {
+    let minutes = Number(minutesDisplay.textContent)
+    let seconds = Number(secondsDisplay.textContent)
+
     minutes = minutes > 5 ? Number(minutes) - 5 : (minutes = 60)
 
-    updateDisplay(minutes, 0)
+    updateDisplay(minutes, seconds)
+    updateMinutesDisplay(minutes)
+  }
+
+  function updateMinutesDisplay(minutes) {
+    newMinutes = minutes
   }
 
   return {
     countDown,
     reset,
     increment,
-    decrement
+    decrement,
+    updateMinutesDisplay,
+    newMinutes
   }
 }
