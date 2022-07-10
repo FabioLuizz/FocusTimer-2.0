@@ -6,12 +6,12 @@
 
 A ideia é criar um temporizador pomodoro, com algumas funcionalidades.
 
-Funcionalidades esperadas dos botões:
+**Funcionalidades esperadas dos botões:**
 
-- Play  : aciona o timer;
-- Stop  : para o timer;
-- ​    \+    : aumenta em mais 5 minutos o tempo do timer;
-- ​    \-    : diminui em 5 minutos o tempo do timer.
+- **Play**  : aciona o timer;
+- **Stop**  : para o timer;
+-    **+**    : aumenta em mais 5 minutos o tempo do timer;
+- ​    **\-**    : diminui em 5 minutos o tempo do timer.
 - Cada card que se encontra do lado direito, quando selecionado, vai mudar de cor e emitir um som diferente. 
 
 
@@ -26,13 +26,21 @@ O tempo de foco padrão é de 25 minutos, mas pode ser alterado pelo usuário.
 
 
 
+## Projeto
+
+- Projeto disponível no [**Link**](https://fabioluizz.github.io/RocketSeat-Explorer-Stage-05-Desafio-01/)	
+
+- Figma do projeto disponível no [**Link**](https://www.figma.com/file/JKjNyFZv6MySJL4PAUNO6X/Stage-05---Focus-Timer-2.0-(Copy))
+
+  
+
 ## Tecnologias utilizadas
 
-- HTML 
+- **HTML** 
 
-- CSS 
+- **CSS** 
 
-- Javascript
+- **Javascript**
 
   
 
