@@ -28,7 +28,7 @@ O tempo de foco padrão é de 25 minutos, mas pode ser alterado pelo usuário.
 
 ## Projeto
 
-- Projeto disponível no [**Link**](https://fabioluizz.github.io/RocketSeat-Explorer-Stage-05-Desafio-01/)	
+- Projeto disponível no [**Link**](https://fabioluizz.github.io/FocusTimer-2.0/)	
 
 - Figma do projeto disponível no [**Link**](https://www.figma.com/file/JKjNyFZv6MySJL4PAUNO6X/Stage-05---Focus-Timer-2.0-(Copy))
 
